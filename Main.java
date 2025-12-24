@@ -44,6 +44,10 @@ public class Main {
 
 		} while (menuOption.toUpperCase().charAt(0) != 'Q');
 	}
+
+    public static String getAuthor() {
+        return author;
+    }
 }
 
 
