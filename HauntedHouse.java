@@ -104,25 +104,33 @@ public class HauntedHouse {
 
 			// Show available directions
 			System.out.print("  You can go");
-			boolean firstDirection = true;
+
+			// Build list of available directions
+			String[] directions = new String[4];
+			int dirCount = 0;
 
 			if (currentRoom.north != null) {
-				System.out.print(" north");
-				firstDirection = false;
+				directions[dirCount++] = "north";
 			}
 			if (currentRoom.south != null) {
-				if (!firstDirection) System.out.print(",");
-				System.out.print(" south");
-				firstDirection = false;
+				directions[dirCount++] = "south";
 			}
 			if (currentRoom.east != null) {
-				if (!firstDirection) System.out.print(",");
-				System.out.print(" east");
-				firstDirection = false;
+				directions[dirCount++] = "east";
 			}
 			if (currentRoom.west != null) {
-				if (!firstDirection) System.out.print(",");
-				System.out.print(" west");
+				directions[dirCount++] = "west";
+			}
+
+			// Print directions with proper formatting
+			for (int i = 0; i < dirCount; i++) {
+				if (i == 0) {
+					System.out.print(" " + directions[i]);
+				} else if (i == dirCount - 1) {
+					System.out.print(" or " + directions[i]);
+				} else {
+					System.out.print(", " + directions[i]);
+				}
 			}
 			System.out.println(".");
 
