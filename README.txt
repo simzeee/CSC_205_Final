@@ -25,9 +25,8 @@ HOW TO COMPILE AND RUN
 
 COMPILATION:
 
-Navigate to the project directory and compile all Java files:
+Navigate in your terminal to the project directory and compile all Java files:
 
-    cd /Users/johnsims/CSC_205_Final
     javac *.java
 
 RUNNING THE PROGRAM:

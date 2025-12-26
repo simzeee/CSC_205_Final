@@ -15,10 +15,9 @@ This project implements three data structure applications:
 
 ### Compilation
 
-Navigate to the project directory and compile all Java files:
+Navigate in your terminal to the project directory and compile all Java files:
 
 ```bash
-cd /Users/johnsims/CSC_205_Final
 javac *.java
 ```
 
