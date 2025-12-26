@@ -5,6 +5,20 @@ CSC 205 FINAL PROJECT
 Author: John Sims
 
 ================================================================================
+HOW TO COMPILE AND RUN
+================================================================================
+
+COMPILATION:
+
+Navigate in your terminal to the project directory and compile all Java files:
+
+    javac *.java
+
+RUNNING THE PROGRAM:
+
+    java Main
+
+================================================================================
 PROJECT DESCRIPTION
 ================================================================================
 
@@ -18,20 +32,6 @@ This project implements three data structure applications:
 
 3. Sentiment Analysis - Uses HashSets to analyze text files for positive
    and negative sentiment
-
-================================================================================
-HOW TO COMPILE AND RUN
-================================================================================
-
-COMPILATION:
-
-Navigate in your terminal to the project directory and compile all Java files:
-
-    javac *.java
-
-RUNNING THE PROGRAM:
-
-    java Main
 
 ================================================================================
 AUTHOR

@@ -2,15 +2,6 @@
 
 **Author:** John Sims
 
-## Project Description
-
-This project implements three data structure applications:
-1. **Suitor Selection** - Uses a circular linked list to simulate the Josephus problem
-2. **Haunted House** - Implements a graph structure for navigating through connected rooms
-3. **Sentiment Analysis** - Uses HashSets to analyze text files for positive and negative sentiment
-
----
-
 ## How to Compile and Run
 
 ### Compilation
@@ -27,6 +18,15 @@ javac *.java
 java Main
 ```
 
+## Project Description
+
+This project implements three data structure applications:
+
+1. **Suitor Selection** - Uses a circular linked list to simulate the Josephus problem
+2. **Haunted House** - Implements a graph structure for navigating through connected rooms
+3. **Sentiment Analysis** - Uses HashSets to analyze text files for positive and negative sentiment
+
+---
 
 ## Author
 
